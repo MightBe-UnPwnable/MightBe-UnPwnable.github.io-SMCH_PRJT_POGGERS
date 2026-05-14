@@ -6,7 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개 Ver. 2</title>
     <style>
-        @import url('https://fonts.cdnfonts.com/css/excelsior-sans');
+
+        .BADASS_COLORED_TEXT{
+            background: linear-gradient(to right, red, #00ff08, blue, red );
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: badass-flow 3s linear infinite;
+            font-size: 60px;
+            text-align: center;
+        }
+
+        .SIDEBAR{
+            width: 16%;
+            height: 75%;
+            background-color: black;
+            color: white;
+            position: fixed;
+            margin-top: 10%;
+            margin-left: 3%;
+            border: 5px ridge #00A305;
+            left: 0;
+            top:0;
+        }
+
+        
+        .MINISIDEBAR{
+            width: 16%;
+            height: 14%;
+            background-color: black;
+            color: white;
+            position: fixed;
+            margin-top: 1%;
+            margin-left: 3%;
+            border: 5px ridge #00A305;
+            left: 0;
+            top:0;
+        }
+
+
+        @keyframes badass-flow {
+            0% {background-position: 0% center;}
+            100% { background-position: 200% center;}
+        }
 
         body {
             background-color: black;
@@ -21,18 +64,35 @@
             color:white;
             background-color: black;
         }
-
-        .NameText {
-            text-align: center;
-            font-family: 'Excelsior Sans';
-            color: white;
-            font-size: 60px;
-        }
     </style>
 </head>
 <body background="https://wallpaperaccess.com/full/90278.jpg">
     <div class="Main_Junks" style="background-image: url(https://media1.tenor.com/m/uXDswYPRqrMAAAAC/glitter-sparkle.gif);">
-        <h1 class="NameText">W&ensp;e&ensp;l&ensp;c&ensp;o&ensp;m&ensp;e</h1>
+        <h1 class="BADASS_COLORED_TEXT">W&ensp;e&ensp;l&ensp;c&ensp;o&ensp;m&ensp;e</h1>
+    </div>
+
+
+    <div class="SIDEBAR" style="text-align: center;">
+        <b style="font-size: 300%;">☞LINKS☜</b>
+        <div style="
+        margin: 0 auto;
+        width:90%;
+        border: 5px ridge #00A305;
+        background-color: black;"
+        >
+        <br>
+        <a href="https://www.reddit.com/r/internet_funeral" target="_blank"><img src="https://styles.redditmedia.com/t5_24m73c/styles/image_widget_m410gpplqip31.png" width="80%" height="80%"></a>
+        <br>
+        <i>r/internetfuneral</i> <br>
+        <a href="https://www.tryhackme.com" target="_blank"><img src="https://tryhackme.com/img/logo/THMlogo-gray_scale.png" width="80%" height="80%"></a>
+        <br> <i>tryhackme.com</i> <br> &ensp;
+    </div>
+    </div>
+
+    <div class="MINISIDEBAR">
+        <b>lamenting over broken websites since 2026...</b>
+
+        <img src="https://web.archive.org/web/20091022001620im_/http://www.geocities.com/michaelbeaubien/pc_on_fire.gif" style="width: 19%;">
     </div>
 
     <br>
@@ -79,14 +139,14 @@
                 <tr>
                     <th>실력</th>
                     <td>적당히 잘함</td>
-                    <td style="color: red;">ASS</td>
+                    <td style="color: red;">매우 나쁨</td>
                     <td>한번 만져봄</td>
                     <td>한번 만져봄</td>
                 </tr>
                 <tr>
                     <th>진도</th>
                     <td>객체지향프로그래밍만 나가면 됨</td>
-                    <td style="color: red;">MISERABLE</td>
+                    <td style="color: red;">기초보다 못함</td>
                     <td>딱 기초만</td>
                     <td>딱 기초만</td>
                 </tr>
@@ -104,6 +164,10 @@
             <li>정보처리기능사 시험 준비</li>
             <li>네트워킹, Javascript, SQL 등 웹개발 기본 지식 쌓기</li>
         </ul>
+        <hr>
+        <blockquote cite="https://en.wikipedia.org/wiki/Clarke%27s_three_laws" style="text-align: center;">
+        <b>"Any sufficiently advanced technology is indistinguishable from magic."</b> — Arthur C. Clarke
+        </blockquote>
     </div>
 
     <br>
